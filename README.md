@@ -1,10 +1,16 @@
-
 # E-Commerce Sales Data Analysis
 
+## 🚀 Project Links
+
+- **Live Dashboard:** [View E-Commerce Sales Dashboard](https://atharv8636-ecommerce-sales-analysis-dashboardapp-tubm0k.streamlit.app/)
+- **GitHub Repository:** [View Source Code](https://github.com/ATHARV8636/Ecommerce-Sales-Analysis)
+
 ## Project Overview
+
 This project analyzes E-Commerce sales data using Python, SQL, Excel, and Streamlit. It helps understand sales performance, profit, customer behavior, and city-wise business performance through data analysis and an interactive dashboard.
 
 ## Technologies Used
+
 - Python
 - Pandas
 - Matplotlib
@@ -13,15 +19,17 @@ This project analyzes E-Commerce sales data using Python, SQL, Excel, and Stream
 - Streamlit
 
 ## Dataset
+
 - Total Records: 500
 - Total Customers: 100
 - Cities: 8
 - Categories: 4
 - Data Period: January 2025 – October 2026
 
-Note: This project uses a synthetic dataset generated for learning and demonstration purposes.
+**Note:** This project uses a synthetic dataset generated for learning and demonstration purposes.
 
 ## Key Features
+
 - Sales and Profit Analysis
 - City-wise Sales Analysis
 - Category-wise Sales Analysis
@@ -33,6 +41,7 @@ Note: This project uses a synthetic dataset generated for learning and demonstra
 - Download Filtered Sales Data
 
 ## Business Insights
+
 - Total Sales: ₹13,700,652.75
 - Total Profit: ₹3,766,052.75
 - Total Orders: 500
@@ -42,6 +51,7 @@ Note: This project uses a synthetic dataset generated for learning and demonstra
 - Highest Revenue City: Nagpur
 
 ## Project Structure
+
 ```text
 Ecommerce-Sales-Analysis/
 │
@@ -49,6 +59,7 @@ Ecommerce-Sales-Analysis/
 │   └── sales_data.csv
 │
 ├── excel/
+│   └── Sales_Analysis.xlsx.xlsx
 │
 ├── sql/
 │   └── analysis_queries.sql
@@ -69,27 +80,33 @@ Ecommerce-Sales-Analysis/
 ## How to Run the Project
 
 ### 1. Clone the Repository
+
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ATHARV8636/Ecommerce-Sales-Analysis.git
 ```
 
 ### 2. Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 3. Run Python Analysis
+
 ```bash
 python python/analysis.py
 ```
 
 ### 4. Run Dashboard
+
 ```bash
 python -m streamlit run dashboard/app.py
 ```
 
 ## Dashboard
+
 The interactive dashboard displays:
+
 - Total Sales
 - Total Profit
 - Total Orders
@@ -99,7 +116,9 @@ The interactive dashboard displays:
 - Monthly Sales Trends
 
 ## Author
-Atharv Gharal
+
+**Atharv Gharal**
 
 ## Purpose
+
 Data Analytics Learning Project
